@@ -17,11 +17,11 @@ This example has react universal app design. Full capability to run server and c
 $ npm install
 
 // Start your project (in development mode)
-$ npm start
+$ npm run dev
 
 // Create production build
 $ npm run build
 
 // Start your server (on created bundle)
-$ npm start
+$ npm webpack:start
 ```
