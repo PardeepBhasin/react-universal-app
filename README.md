@@ -22,6 +22,6 @@ $ npm run dev
 // Create production build
 $ npm run build
 
-// Start your server (on created bundle)
+// Start your server (with existing bundle)
 $ npm webpack:start
 ```
