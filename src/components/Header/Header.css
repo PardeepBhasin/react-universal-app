@@ -1,0 +1,8 @@
+.navigation {
+  display: block;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 0 10px;
+}
