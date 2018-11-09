@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Switch, Route, withRouter } from 'react-router';
+import { Switch, Route } from 'react-router';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -21,4 +21,4 @@ class App extends React.Component {
   }
 }
 
-export default withRouter(App);
+export default App;
