@@ -29,12 +29,11 @@ app.get('*', (req, res) => {
       <head>
         ${helmet.title.toString()}
         ${helmet.meta.toString()}
+        <script src="client_bundle.js" defer></script>
+        <script>window.__INITIAL_DATA__ = undefined;</script>
       </head>
       <body>
-        <div id="root">
-          ${content}
-        </div>
-        <script src="client_bundle.js"></script>
+        <div id="root">${content}</div>
       </body>
     </html>
   `;
