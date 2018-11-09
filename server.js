@@ -33,7 +33,7 @@ app.get('*', (req, res) => {
         <script>window.__INITIAL_DATA__ = undefined;</script>
       </head>
       <body>
-        <div id="root">${content}</div>
+        <div id="root" class="container">${content}</div>
       </body>
     </html>
   `;
